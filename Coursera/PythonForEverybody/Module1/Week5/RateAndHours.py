@@ -1,9 +1,13 @@
 hrs = input("Enter Hours:")
-h = float(hrs)
-
 r = input("Enter Rate:")
-rate = float(r)
 
+try:
+    h = float(hrs)
+    rate = float(r)
+except:
+    print("Error, please enter numeric input for hours and rate")
+    quit() # do not continue on
+    
 regularHours = 0.0
 overTimeHours = 0.0
 
