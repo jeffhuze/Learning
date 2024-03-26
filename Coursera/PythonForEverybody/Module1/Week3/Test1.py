@@ -1,3 +1,8 @@
+x = 'banana'
+y = max(x)
+print(y)
+
+
 x = 1
 print(x)
 x = x + 1
